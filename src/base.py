@@ -124,7 +124,7 @@ def run_dtree(train_data, train_target, test_data, criterion='entropy', max_dept
 
 # Run DTREE
 def run_dtree2(train_data, train_target, test_data, criterion='entropy', max_depth=None, post_prune=False,
-              col_name='predict', skip_cv=False, num_cv=10):
+               col_name='predict', skip_cv=False, num_cv=10):
     # define classifier
     dtree_clf = DecisionTreeClassifier(criterion=criterion, max_depth=max_depth)
     # train

@@ -1,5 +1,11 @@
 # DS Experiment Description
 Moritz Leidinger, 11722966
+## 0. Setup 
+- Install Python 3.7.3, Jupyter, and the imported libraries
+- Run `UE1_Arrythmia.ipynb` and/or `UE1_Breast_Cancer.ipynb`
+- Execute all code cells from top to bottom
+- View the results in the notebook or view/use the created result .csv files
+
 ## 1. Task
 This experiment aims to apply two machine learning models to solve a classification task for two different datasets. Each dataset is evaluated with each of the machine learning models, using different parameter settings and preprocessing strategies to compare the respective results and analyze across datasets and/or machine learning models.
 
@@ -38,4 +44,7 @@ To deal with the missing values in the Arrhythmia dataset, the ‘?’-string wa
 Looking at the overall performance and predictions of the conducted experiments, it was observed that the differences in the dataset size and quality as well as the preprocessing steps had the biggest impact. The best results were achieved with the Breast Cancer dataset who had no missing values and only numeric data. The dataset with mixed and missing values needed more complex preprocessing strategies as the machine learning models were not able to deal with categorical data and no good results were achived without filling in gaps with dummy values. To further push the accuracy of the prediction results, all values (represented as numeric data) were scaled, which also increased the runtime for some of the training algorithms. 
 
 The Arrhythmia dataset achieved quite poor results across all machine learning models since only few classes represented the majority of labels. Some classes were not contained in the training set at all, which lead to a learning model which did not predict any of those classes either.
+
+## 5. Metadata 
+- Date of experiment completion: 22.4.2019
 
