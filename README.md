@@ -1,3 +1,5 @@
+[![DOI](https://www.zenodo.org/badge/182758166.svg)](https://www.zenodo.org/badge/latestdoi/182758166)
+
 # DS Experiment Description
 Moritz Leidinger, 11722966
 ## 0. Setup 
