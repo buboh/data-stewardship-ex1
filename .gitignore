@@ -1,0 +1,5 @@
+*.zip
+MachineLearning-2018-exercise_Classification.pdf
+*.docx
+.idea
+__pycache__
