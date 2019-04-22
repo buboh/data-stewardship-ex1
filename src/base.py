@@ -20,7 +20,7 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
 # mlpath = "C:/Users/Moritz/Desktop/DS-UE1/"
-mlpath = './'
+mlpath = '../'
 
 # Classifiers
 # Preprocessing
